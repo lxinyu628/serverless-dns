@@ -1,0 +1,19 @@
+{
+  "upstreams": [
+    "https://cloudflare-dns.com/dns-query",
+    "https://dns.google/dns-query"
+  ],
+  "blocklists": [],
+  "cache": {
+    "enabled": true,
+    "size": 256,
+    "ttl": 300
+  },
+  "logging": {
+    "level": "info"
+  },
+  "features": {
+    "ecs": true,
+    "dnssec": false
+  }
+}
